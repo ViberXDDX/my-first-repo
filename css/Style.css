@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+:root {
+  --light-orange: #feddb4;
+  --light-blue: #acf1f3;
+  --light-pink: #ecb9ff;
+  --pink:#d86dff;
+  --black: #141734;
+  --white: #fffffd;
+}
+
+body {
+  height: 100vh;
+  height: 100vh;
+  width: 100vw;
+  background-image: url(../images/12a9ff67-bf55-47c3-94ab-85375232cd23.png);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+}
+
+main {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  border: 8px var(--white) solid;
+  background-color: rgb(255, 255, 253, .5);
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+  height: 450px;
+  gap: 30px;
+
+  border-radius: 8px;
+  padding: 70px 50px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+
+}
+
+.bundle1 {
+    text-shadow: 1px 1px 10px var(--light-blue);
+}
+
+.price {
+  display: block;
+  font-size: 20px;
+}
+
+.plan_System {
+  font-size: 13px;
+}
+
+.num {
+  font-size: 32px;
+  margin-left: 4px;
+}
+
+div {
+  display: inline;
+}
+
+.inline {
+  display: inline;
+}
+
+.btn {
+  font-size: 11px;
+  width: 90px;
+  border: none;
+  padding: 10px 2px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  cursor: pointer;
+  font-weight: 500;
+
+}
+
+.btn1 {
+  background-color: var(--light-pink);
+  text-shadow: 5px 5px 10px var(--pink);
+}
+.btn2 {
+  background-color: var(--light-blue);
+}
+.btn3 {
+  background-color: var(--light-orange);
+}
