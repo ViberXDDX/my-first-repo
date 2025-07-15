@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Practice website demonstrating full HTML usage including tags, attributes, meta tags, and accessibility.">
+  <meta name="author" content="Your Name">
+  <meta name="keywords" content="HTML, Accessibility, Meta Tags, ARIA, Practice, Learning">
+  <meta name="robots" content="index, follow">
+  <meta name="theme-color" content="#ffffff">
+
+  <title>me me</title>
+</head>
+<body>
+  <header>
+    <h1>Youssef Ashraf</h1>
+    <nav aria-label="Main Navigation">
+      <ul>
+        <li><a href="#about" title="Learn more about this project">About</a></li>
+        <li><a href="#gallery" title="Check the image gallery">Gallery</a></li>
+        <li><a href="#contact" title="Contact us form">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="about">
+      <h2>About This Project</h2>
+      <p>gg.</p>
+      <p><strong>Lorem ipsum dolor sit amet.</strong>Lorem, ipsum.</p>
+    </section>
+
+    <section id="gallery">
+      <h2>Image Gallery</h2>
+      <figure>
+        <img src="img/sample.jpg" alt="Sample image of the project" width="300" height="200">
+        <figcaption>gg</figcaption>
+      </figure>
+      <audio controls>
+        <source src="audio/demo.mp3" type="audio/mpeg">
+        Your browser does not support the audio tag.
+      </audio>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Us</h2>
+      <form action="#" method="post" aria-label="Contact form">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required placeholder="Your Name">
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required placeholder="your@example.com">
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4" placeholder="Type your message here..."></textarea>
+
+        <input type="submit" value="Send">
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; gg</p>
+    <address>
+      Contact me <a href="mailto:info@example.com">yossefashraf.com</a>
+    </address>
+  </footer>
+</body>
+</html>
