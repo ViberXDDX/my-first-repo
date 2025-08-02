@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.Container2{
+    min-height: 630px;
+    max-height: 100vh;
+    width: 330px;
+    display: flex;
+    justify-content: start;
+    position: relative;
+    overflow-y: hidden;
+    z-index: 2;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    box-shadow: 0 0px 40px 1px rgba(0, 0, 0, 0.329);
+    overflow-x: hidden;
+}
+
+.All{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    overflow: auto;
+    align-items: center;
+    z-index: 0;
+    position: fixed;
+    background: linear-gradient(to top right, rgb(97, 97, 255), lightblue);
+}
+
+.title{
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    gap: 20px;
+    cursor: auto;
+    height: 150px;
+
+}
+
+.square{
+    position: absolute;
+    background : linear-gradient( to right ,#899fe7 ,#1d45d6 );
+    top: -80px;
+    height: 250px;
+    width: 380px;
+    z-index: -100;
+    transform: rotate(-15deg);
+    border-bottom-left-radius: 20%;
+}
+
+.head{
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    width: 330px;
+    height: 100%;
+}
+
+.Content{
+    position: relative;
+    margin-top: 100px;
+}
+
+.button_branch{
+    display: flex;
+    align-items: center;
+    background-color: #628bfe;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color:aliceblue ;
+    margin: auto;
+    gap: 5px;
+    box-shadow: 1px 2px 5px 1px rgb(179, 178, 178);
+    transition: transform 0.3s ease-in 0s, box-shadow 0.3s ease-in 0s
+}
+
+.button_branch:hover{
+    transform: translateY(-20px) ;
+    box-shadow: 2px 4px 10px 2px gray;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: column;
+    max-height: 80%;
+    padding-top: 40px;
+}
+
+.Button{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    padding-left: 20px;
+    font-family: 'Poppins', sans-serif;
+    transition: background-color .2s ease-in ,box-shadow .2s ease-in;
+}
+
+.Button:hover{
+    box-shadow: inset 4px 0 1px 1px #5a8ad6;
+    background-color: aliceblue;
+}
+
+.icon{
+    color:#d1d3d4 ;
+}
+
+.Button:hover .icon {
+    color: #5d84d6;
+}
+
+.trash{
+    font-size: 25px;
+    position: absolute;
+    right: 30px;
+
+}
+
+.Button:hover .trash{
+    color: rgb(189, 0, 0);
+    animation: shake 1s ease-in;
+}
+
+@keyframes shake {
+    0% {
+        transform: rotate(10deg);
+    }
+
+    20%{
+        transform: rotate(0deg);
+    }
+
+    40%{
+        transform: rotate(-10deg);
+    }
+
+    60%{
+        transform: rotate(0deg);
+    }
+
+    80%{
+        transform: rotate(10deg);
+    }
+
+    100%{
+        transform: rotate(0deg);
+    }
+}
